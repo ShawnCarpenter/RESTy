@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Controls component renders Controls 1`] = `
+<DocumentFragment>
+  <form>
+    <label
+      for="url"
+    >
+      URL
+    </label>
+    <input
+      id="url"
+      name="url"
+      type="text"
+      value="http://www.google.com"
+    />
+    <textarea
+      name="body"
+    >
+      Text and stuff
+    </textarea>
+    <label>
+      Method
+    </label>
+    <input
+      name="method"
+      type="radio"
+      value="GET"
+    />
+    <input
+      checked=""
+      name="method"
+      type="radio"
+      value="POST"
+    />
+    <input
+      name="method"
+      type="radio"
+      value="PUT"
+    />
+    <input
+      name="method"
+      type="radio"
+      value="DELETE"
+    />
+    <button>
+      Go
+    </button>
+  </form>
+</DocumentFragment>
+`;
