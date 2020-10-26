@@ -27,6 +27,7 @@ exports[`App component renders App 1`] = `
         value="GET"
       />
       <input
+        checked=""
         name="method"
         type="radio"
         value="POST"
@@ -45,11 +46,7 @@ exports[`App component renders App 1`] = `
         Go
       </button>
     </form>
-    <div>
-      {
-  "test": "data"
-}
-    </div>
+    <div />
     <div>
       History page
     </div>
