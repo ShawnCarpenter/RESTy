@@ -5,6 +5,11 @@ exports[`App component renders App 1`] = `
   <div
     class="Resty"
   >
+    <header>
+      <h1>
+        RESTy
+      </h1>
+    </header>
     <form
       class="Controls"
     >
