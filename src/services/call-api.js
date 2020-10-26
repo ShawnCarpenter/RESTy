@@ -4,6 +4,9 @@ export default  ({ url, method, body }) => {
     method,
     ...(method === 'POST' || method === 'PUT') && { body:JSON.stringify(body) },
     headers: { 'Content-Type': 'application/json' },
+    mode:'cors'
   })
-    .then(res => res.json());
+    // .then(console.log);
+    .then(res => res.json())
+    .catch(err => err);
 };

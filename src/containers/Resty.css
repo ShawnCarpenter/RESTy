@@ -1,7 +1,7 @@
 .Resty{
   display: flex;
   flex-direction: column;
-  background-color: aquamarine;
+  background-color: whitesmoke;
   min-height: 100vh;
   header {
     background-color: #272727;
@@ -15,4 +15,5 @@
 
 body {
   margin:0px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }

@@ -4,7 +4,6 @@ import HistoryItem from './HistoryItem';
 import styles from './History.css';
 
 const History = ({ history }) => {
-  console.log(history);
   const items = history.map(item => (
     <li key={item.url + item.method}>
       <HistoryItem

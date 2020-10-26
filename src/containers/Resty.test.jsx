@@ -6,7 +6,7 @@ describe('Resty tests', () => {
   it('renders a controls box on screen', () => {
     
     render(<Resty />);
-    const urlInput = screen.getByLabelText('URL')
+    const urlInput = screen.getByLabelText('URL');
     
   });
   
