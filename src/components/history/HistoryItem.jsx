@@ -3,8 +3,9 @@ import PropTypes from 'prop-types';
 
 const HistoryItem = ({ method, url }) => {
   return (
-    <div>
-      
+    <div >
+      <div>{method}</div>
+      <div>{url}</div>
     </div>
   );
 };

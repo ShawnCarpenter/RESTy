@@ -1,0 +1,18 @@
+.Resty{
+  display: flex;
+  flex-direction: column;
+  background-color: aquamarine;
+  min-height: 100vh;
+  header {
+    background-color: #272727;
+    color: antiquewhite;
+    max-height: 10vh;
+  }
+  h1 {
+    margin-left: 10vw;
+  }
+}
+
+body {
+  margin:0px;
+}

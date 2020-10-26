@@ -4,8 +4,11 @@ import ReactJson from 'react-json-view';
 
 const Display = ({ data }) => {
   return (
-    <div>{
-      data && <ReactJson src={data} />
+    <div >{
+      data && <ReactJson 
+        src={data}
+        theme="monokai"
+        collapsed="2" />
     }
     </div>
   );

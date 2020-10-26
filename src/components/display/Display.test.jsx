@@ -5,7 +5,7 @@ import Display from './Display';
 describe('Display component', () => {
   afterEach(() => cleanup());
   it('renders Display', () => {
-    const { asFragment } = render(<Display />);
+    const { asFragment } = render(<Display data ={{ test:'data' }}/>);
 
     expect(asFragment()).toMatchSnapshot();
   });

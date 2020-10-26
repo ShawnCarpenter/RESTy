@@ -1,9 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import styles from './Controls.css';
 
 function Controls({ method, url, onChange, onSubmit, body }) {
   return (
-    <form onSubmit={onSubmit}>
+    <form onSubmit={onSubmit}
+      className={styles.Controls}>
       <label htmlFor="url">URL</label>
       <input 
         type="text"
@@ -14,23 +16,45 @@ function Controls({ method, url, onChange, onSubmit, body }) {
       />
 
       <textarea name="body" onChange={onChange} value={body} />
-      <label>Method</label>
       <input 
         type="radio"
         name="method"
-        value="GET" checked={method === 'GET'} onChange={onChange}/>
+        id="get"
+        value="GET"
+        checked={method === 'GET'}
+        onChange={onChange}
+      />
+      <label htmlFor="get">GET</label>
+      
       <input 
         type="radio"
         name="method"
-        value="POST" checked={method === 'POST'} onChange={onChange}/>
+        id="post"
+        value="POST"
+        checked={method === 'POST'}
+        onChange={onChange}
+      />
+      <label htmlFor="post">POST</label>
+      
       <input 
         type="radio"
         name="method"
-        value="PUT" checked={method === 'PUT'} onChange={onChange}/>
+        id="put"
+        value="PUT"
+        checked={method === 'PUT'}
+        onChange={onChange}
+      />
+      <label htmlFor="put">PUT</label>
+      
       <input 
         type="radio"
         name="method"
-        value="DELETE" checked={method === 'DELETE'} onChange={onChange}/>
+        id="delete"
+        value="DELETE"
+        checked={method === 'DELETE'}
+        onChange={onChange}
+      />
+      <label htmlFor="delete">DELETE</label>
       <button>Go</button>
     </form>
   );

@@ -1,0 +1,23 @@
+.Controls {
+  min-width:100vw;
+  border:red 3px solid;
+  input[type="radio"] {
+    display: none;
+  }
+
+  input[type="radio"]+label {
+    padding: 5px;
+
+  }
+
+  input[type="radio"]:checked+label {
+    background-color: blue;
+  }
+
+  input[type="radio"]:hover+label {
+    background-color: red;
+  }
+  button {
+    padding: 5px;
+  }
+}

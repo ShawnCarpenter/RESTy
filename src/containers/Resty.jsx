@@ -2,12 +2,12 @@ import React, { Component } from 'react';
 import Controls from '../components/controls/Controls';
 import Display from '../components/display/Display';
 import History from '../components/history/History';
-
+import styles from './Resty.css';
 import callApi from '../services/call-api';
 
 export default class Resty extends Component {
   state={
-    method:'POST',
+    method:'GET',
     url:'',
     text:'',
     body:'',
@@ -38,7 +38,8 @@ export default class Resty extends Component {
   render() {
     const { method, url, body, history, response } = this.state;
     return (
-      <div>
+      <div className={styles.Resty}>
+        <header><h1>RESTy</h1></header>
         <Controls 
           method={method}
           url={url}
