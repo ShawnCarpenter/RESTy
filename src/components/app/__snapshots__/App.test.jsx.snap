@@ -45,6 +45,14 @@ exports[`App component renders App 1`] = `
         Go
       </button>
     </form>
+    <div>
+      {
+  "test": "data"
+}
+    </div>
+    <div>
+      History page
+    </div>
   </div>
 </DocumentFragment>
 `;
