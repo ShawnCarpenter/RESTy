@@ -3,15 +3,17 @@ import PropTypes from 'prop-types';
 import HistoryItem from './HistoryItem';
 import styles from './History.css';
 
-const History = ({ history }) => {
-  const items = history.map(item => (
-    <li key={item.url + item.method}>
+const History = ({ history, onClick }) => {
+  const items = history.map((item, index) => (
+    <li key={item.url + item.method + index} >
       <HistoryItem
         method={item.method}
-        url={item.url} />
+        url={item.url}
+        onClick={onClick}/>
     </li>));
   return (
     <div className={styles.History}>
+      <h3>History</h3>
       <ul>
         {items}
       </ul>

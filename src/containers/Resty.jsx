@@ -11,12 +11,17 @@ export default class Resty extends Component {
     url:'',
     text:'',
     body:'',
-    response:'',
+    response:{},
     history:[]
   }
 
   handleChange = ({ target }) => {
     this.setState({ [target.name]:target.value });
+  }
+  handleHistoryClick = ({ target }) => {
+    this.setState({
+      url:target.url,
+      method:target.method });
   }
 
   handleSubmit = (event) => {
@@ -50,7 +55,10 @@ export default class Resty extends Component {
         <Display
           data={response}
         />
-        <History history={history} />
+        <History 
+          history={history}
+          onClick={this.handleHistoryClick}
+        />
       </div>
     );
   }

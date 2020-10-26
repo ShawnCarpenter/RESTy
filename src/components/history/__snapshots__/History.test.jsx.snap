@@ -5,6 +5,9 @@ exports[`History component renders History 1`] = `
   <div
     class="History"
   >
+    <h3>
+      History
+    </h3>
     <ul>
       <li>
         <div>

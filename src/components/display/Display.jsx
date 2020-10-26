@@ -5,12 +5,14 @@ import styles from './Display.css';
 
 const Display = ({ data }) => {
   return (
-    <div className={styles.Display}>{
-      data && <ReactJson 
-        src={data}
-        theme="monokai"
-        collapsed="2" />
-    }
+    <div className={styles.Display}>
+      <h3>Response</h3>
+      {
+        <ReactJson 
+          src={data}
+          // theme="monokai"
+          collapsed="2" />
+      }
     </div>
   );
 };

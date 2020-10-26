@@ -5,9 +5,12 @@ exports[`Display component renders Display 1`] = `
   <div
     class="Display"
   >
+    <h3>
+      Response
+    </h3>
     <div
       class="react-json-view"
-      style="font-family: monospace; cursor: default; background-color: rgb(39, 40, 34); position: relative;"
+      style="font-family: monospace; cursor: default; background-color: rgba(0, 0, 0, 0); position: relative;"
     >
       <div
         class="pretty-json-container object-container"
@@ -31,7 +34,7 @@ exports[`Display component renders Display 1`] = `
                   >
                     <svg
                       fill="currentColor"
-                      style="vertical-align: top; color: rgb(102, 217, 239); height: 1em; width: 1em; padding-left: 2px;"
+                      style="vertical-align: top; color: rgb(88, 110, 117); height: 1em; width: 1em; padding-left: 2px;"
                       viewBox="0 0 15 15"
                     >
                       <path
@@ -41,7 +44,7 @@ exports[`Display component renders Display 1`] = `
                   </span>
                 </div>
                 <span
-                  style="display: inline-block; color: rgb(249, 248, 245); letter-spacing: 0.5px; font-style: none; vertical-align: top; opacity: 0.85;"
+                  style="display: inline-block; color: rgb(0, 43, 54); letter-spacing: 0.5px; font-style: none; vertical-align: top; opacity: 0.85;"
                 >
                   <span
                     class="object-key"
@@ -61,13 +64,13 @@ exports[`Display component renders Display 1`] = `
                     </span>
                   </span>
                   <span
-                    style="display: inline-block; margin: 0px 5px; color: rgb(249, 248, 245); vertical-align: top;"
+                    style="display: inline-block; margin: 0px 5px; color: rgb(0, 43, 54); vertical-align: top;"
                   >
                     :
                   </span>
                 </span>
                 <span
-                  style="display: inline-block; cursor: pointer; font-weight: bold; color: rgb(249, 248, 245);"
+                  style="display: inline-block; cursor: pointer; font-weight: bold; color: rgb(0, 43, 54);"
                 >
                   {
                 </span>
@@ -78,7 +81,7 @@ exports[`Display component renders Display 1`] = `
               >
                 <span
                   class="object-size"
-                  style="color: rgb(165, 159, 133); border-radius: 3px; font-style: italic; margin: 0px 6px 0px 0px; cursor: default;"
+                  style="color: rgba(0, 0, 0, 0.3); border-radius: 3px; font-style: italic; margin: 0px 6px 0px 0px; cursor: default;"
                 >
                   1 item
                 </span>
@@ -94,7 +97,7 @@ exports[`Display component renders Display 1`] = `
                       <svg
                         fill="currentColor"
                         preserveAspectRatio="xMidYMid meet"
-                        style="vertical-align: top; color: rgb(204, 102, 51); font-size: 15px; margin-right: 3px; height: 1em; width: 1em;"
+                        style="vertical-align: top; color: rgb(38, 139, 210); font-size: 15px; margin-right: 3px; height: 1em; width: 1em;"
                         viewBox="0 0 40 40"
                       >
                         <g>
@@ -117,12 +120,12 @@ exports[`Display component renders Display 1`] = `
               >
                 <div
                   class="variable-row"
-                  style="border-left: 1px solid #49483e; padding: 3px 5px 3px 20px;"
+                  style="border-left: 1px solid rgb(235, 235, 235); padding: 3px 5px 3px 20px;"
                 >
                   <span>
                     <span
                       class="object-key"
-                      style="display: inline-block; color: rgb(249, 248, 245); letter-spacing: 0.5px; font-style: none; vertical-align: top; opacity: 0.85;"
+                      style="display: inline-block; color: rgb(0, 43, 54); letter-spacing: 0.5px; font-style: none; vertical-align: top; opacity: 0.85;"
                     >
                       <span
                         style="vertical-align: top;"
@@ -141,7 +144,7 @@ exports[`Display component renders Display 1`] = `
                       </span>
                     </span>
                     <span
-                      style="display: inline-block; margin: 0px 5px; color: rgb(249, 248, 245); vertical-align: top;"
+                      style="display: inline-block; margin: 0px 5px; color: rgb(0, 43, 54); vertical-align: top;"
                     >
                       :
                     </span>
@@ -151,7 +154,7 @@ exports[`Display component renders Display 1`] = `
                     style="display: inline-block; padding-right: 6px; position: relative; cursor: default;"
                   >
                     <div
-                      style="display: inline-block; color: rgb(253, 151, 31);"
+                      style="display: inline-block; color: rgb(203, 75, 22);"
                     >
                       <span
                         class="data-type-label"
@@ -179,7 +182,7 @@ exports[`Display component renders Display 1`] = `
                         <svg
                           fill="currentColor"
                           preserveAspectRatio="xMidYMid meet"
-                          style="vertical-align: top; color: rgb(204, 102, 51); font-size: 15px; margin-right: 3px; height: 1em; width: 1em;"
+                          style="vertical-align: top; color: rgb(38, 139, 210); font-size: 15px; margin-right: 3px; height: 1em; width: 1em;"
                           viewBox="0 0 40 40"
                         >
                           <g>
@@ -198,7 +201,7 @@ exports[`Display component renders Display 1`] = `
               class="brace-row"
             >
               <span
-                style="display: inline-block; cursor: pointer; font-weight: bold; color: rgb(249, 248, 245); padding-left: 3px;"
+                style="display: inline-block; cursor: pointer; font-weight: bold; color: rgb(0, 43, 54); padding-left: 3px;"
               >
                 }
               </span>
