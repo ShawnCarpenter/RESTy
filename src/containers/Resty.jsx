@@ -19,9 +19,10 @@ export default class Resty extends Component {
     this.setState({ [target.name]:target.value });
   }
   handleHistoryClick = ({ target }) => {
+    console.log(target.attributes.url.value);
     this.setState({
-      url:target.url,
-      method:target.method });
+      url:target.attributes.url.value,
+      method:target.attributes.method.value });
   }
 
   handleSubmit = (event) => {

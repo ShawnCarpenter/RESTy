@@ -25,7 +25,8 @@ History.propTypes = {
   history:PropTypes.arrayOf(PropTypes.shape({
     method:PropTypes.string.isRequired,
     url:PropTypes.string.isRequired
-  }))
+  })),
+  onClick:PropTypes.func
 };
 
 export default History;
